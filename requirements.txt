@@ -6,6 +6,10 @@ langchain-openai>=0.1.0
 
 # OpenAI
 openai>=1.30.0
+#GROQ
+streamlit>=1.45.0
+langchain-groq>=0.2.0
+groq>=0.30.0
 
 # Tavily Search Tool
 tavily-python>=0.3.0
