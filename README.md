@@ -63,17 +63,18 @@ The pipeline performs:
 
 # 📂 Project Structure
 ```text
-ResearchMind/
+Research mind/
 │
-├── app.py
-├── agents.py
-├── tools.py
-├── requirements.txt
-├── .env
+├── __pycache__/
+│   ├── agents.cpython-312.pyc
+│   └── tools.cpython-312.pyc
 │
-├── assets/
-│
-└── README.md
+├── .gitignore               # Git ignore rules
+├── agents.py                # Defines AI agents and their roles
+├── app.py                   # Streamlit application entry point
+├── pipeline.py              # Multi-agent workflow orchestration
+├── requirements.txt         # Project dependencies
+└── tools.py                 # Custom tools used by the agents
 ```
 # ⚙️ Installation
 
