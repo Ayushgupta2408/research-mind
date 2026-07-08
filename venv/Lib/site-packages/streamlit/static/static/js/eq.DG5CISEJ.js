@@ -1,0 +1,1 @@
+import{r as e}from"./isSymbol.CmW3dkoN.js";function t(e){var t=typeof e;return e!=null&&(t==`object`||t==`function`)}var n=`[object AsyncFunction]`,r=`[object Function]`,i=`[object GeneratorFunction]`,a=`[object Proxy]`;function o(o){if(!t(o))return!1;var s=e(o);return s==r||s==i||s==n||s==a}function s(e,t){return e===t||e!==e&&t!==t}export{o as n,t as r,s as t};

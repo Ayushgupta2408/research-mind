@@ -1,0 +1,1 @@
+import{n as e}from"./eq.DG5CISEJ.js";var t=9007199254740991,n=/^(?:0|[1-9]\d*)$/;function r(e,r){var i=typeof e;return r??=t,!!r&&(i==`number`||i!=`symbol`&&n.test(e))&&e>-1&&e%1==0&&e<r}var i=9007199254740991;function a(e){return typeof e==`number`&&e>-1&&e%1==0&&e<=i}function o(t){return t!=null&&a(t.length)&&!e(t)}export{a as n,r,o as t};

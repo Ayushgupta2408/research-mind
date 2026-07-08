@@ -1,0 +1,1 @@
+import{t as e}from"./isArrayLike.Co48mDbu.js";import{t}from"./_baseEach.Cj2TffRg.js";function n(n,r){var i=-1,a=e(n)?Array(n.length):[];return t(n,function(e,t,n){a[++i]=r(e,t,n)}),a}export{n as t};
